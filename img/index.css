@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+.container{
+	width: 1100px;
+	margin: auto;
+}
+.clearfix::after{
+	clear: both;
+	zoom: 1;
+}
+
+
+/* top */
+.top{
+	height: 210px;
+	background: url(jnsbj2019_banner.jpg) no-repeat center;
+}
+
+
+
+
+
+
+/* nav */
+.nav{
+	background: #1860b9;
+	height: 50px;
+	margin-top: -1px;
+}
+.nav ul li{
+	float: left;
+	width: 12.5%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+}
+.nav ul li:hover{
+	background: #074997;
+	font-weight: 600;
+}
+
+/* content*/
+.content{
+	background: url(content_bg.jpg) repeat center;
+	height: 30px;
+}
